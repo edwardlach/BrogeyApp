@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Ward Child
+ Theme URI:    http://brogeygolfreview.com/ward-child/
+ Description:  Ward Child Theme
+ Author:       Ed Lach
+ Author URI:   http://brogeygolfreview.com
+ Template:     ward
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ward-child
+*/
+
+@import url("../ward/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/* Bottom half of home page */
+.basic #home-page-widgets {   
+background: #333333;
+}
+
+/* Title Text */
+.home-jumbotron h1 {
+  font-size: 71px;
+}
+
+.basic h1, .basic h2, .basic h3, .basic h4, .basic h5, .basic h6 {
+color: #000;
+font-family: Tahoma, Geneva, sans-serif;
+font-weight: bold;
+}
+
+
+/* Nav bar background */
+.navbar-inverse {
+background-color: #333333;
+border-color: #080808;
+}
+
+/* Home page center piece */
+
+media="all"
+.icon-off:before {
+content: "\golfball_website_center.gif";
+}
+
+/* background-image: url("..pictures/golfball_website_center.gif");
+background-repeat: no-repeat;
+*/

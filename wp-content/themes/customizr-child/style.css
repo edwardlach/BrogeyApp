@@ -1,0 +1,579 @@
+/*
+ Theme Name:   Customizr Child
+ Theme URI:    http://brogeygolfreview.com/customizr-child/
+ Description:  Customizr Child Theme
+ Author:       Ed Lach
+ Author URI:   http://brogeygolfreview.com
+ Template:     customizr
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  customizr-child
+*/
+
+@import url("../customizr/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+/* Top header */
+.tc-header {
+min-height: 45px;
+background: #000029;
+background-image: none;
+border-bottom: 0px solid #e9eaee;
+border-top: 0px solid black;
+z-index: 200;
+}
+
+
+/* Title Text */
+.tc-header .brand a {
+font-family: Lato, sans-serif;
+text-decoration: none;
+color: white;
+font-weight: 300;
+letter-spacing: 5px;
+line-height: 1;
+margin: 0;
+text-transform: uppercase;
+font-size: 70px;
+
+}
+
+.tc-header .brand a hover{
+color: aquamarine;
+}
+
+/* Menu */
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+color: #39ff14;
+font-family: Lato, sans-serif;
+text-decoration: none;
+font-weight: 300;
+letter-spacing: 5px;
+line-height: 1;
+margin: 0;
+text-transform: uppercase;
+}
+
+.navbar.nav > li > a:focus, .navbar .nav > li > a {
+font-family: Lato, sans-serif;
+text-decoration: none;
+color: white;
+font-weight: 300;
+letter-spacing: 5px;
+line-height: 1;
+margin: 0;
+text-transform: uppercase;
+}
+
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a {
+color: #39ff14;
+font-family: Lato, sans-serif;
+text-decoration: none;
+font-weight: 300;
+letter-spacing: 5px;
+line-height: 1;
+margin: 0;
+text-transform: uppercase;
+}
+
+.span7.inside.site-description {
+min-height: 0px;
+border: 0px;
+margin: 0px;
+padding: 0px;
+}
+
+.social-block.span5 {
+min-height: 0px;
+border: 0px;
+margin: 0px;
+padding: 0px;
+float: right;
+}
+
+a.social-icon.icon-feed {
+float: right;
+}
+
+a.social-icon.icon-feed::before{
+float: right;
+color: white;
+}
+
+a.social-icon.icon-feed::before:hover {
+color: #39ff14;
+}
+
+/* Menu: tagline-top right */
+
+.navbar-wrapper .navbar h2 {
+float: right;
+padding-right: 5px;
+font-style: italic;
+line-height: 19px;
+text-align: right;
+color: grey;
+background-color: #404040;
+margin: 0 auto;
+width: 100%;
+/* max-width: 240px; */
+}
+
+/* adjusts css of entire header */
+.tc-header.clearfix.row-fluid{
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.tc-header.clearfix.row-fluid::after{
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+
+/* adjusts css of entire header and footer */
+.row-fluid {
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.row-fluid .span9 {
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.navbar-inner {
+min-height: 40px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: #404040;
+background-image: none;
+/* background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#f2f2f2)); */
+/* background-image: -webkit-linear-gradient(top, white, #f2f2f2); */
+background-image: none;
+/* background-image: linear-gradient(to bottom, white, #f2f2f2); */
+/* background-repeat: repeat-x; */
+filter: none;
+border: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.navbar-wrapper.clearfix.span9 {
+padding: 0px;
+float: none;
+width: 100%;
+margin: 0px;
+}
+
+
+.brand.span3.pull-left{
+float: none;
+width: 100%;
+}
+
+.navbar.notresp.row-fluid.pull-left{
+width: 100%;
+margin: 0 auto;
+}
+
+a.site-title {
+width: 100%;
+}
+
+/* Code for Custom Login Page CSS */
+
+/* This block of code is used to customize the background of our custom login page */
+
+body.login {
+/* background: #fbfbfb url('your-bg.jpg') no-repeat fixed center; */
+}
+
+/* This block of code replaces the wordpress logo with our own for our custom login page */
+
+.login h1 a {
+/* background-image: url('../login/logo.png');
+background-size: 300px 260px;
+width: 300px;
+height: 260px; */
+}
+
+/* This block adjusts the padding for the login box */
+
+#login {
+/* padding: 30px 0 0; */
+}
+
+/* This block of code adjusts the appearance of the login box */
+
+.login form {
+margin-left: auto;
+margin-right: auto;
+padding: 30px;
+border: 1px solid rgba(0,0,0,.2);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background: rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+overflow: hidden;
+}
+
+/* this block of code adjusts the login pop up window */
+
+#login-box.login-popup {
+width: 25%;
+}
+
+
+
+.login-popup {
+background: #fff;
+color: #797979;
+padding: 10px 20px 20px;
+max-width: 15%;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+-o-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* this block adjusts the input fields for the pop up window */
+
+#login.wpml-content {
+width: 75%;
+padding: 10px;
+margin: auto;
+}
+
+#form.input{
+width: 75%;
+}
+
+#login_user.input {
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+outline: 0;
+height: 100%;
+}
+
+#form #forgetmenot {
+position: relative;
+float: left;
+margin: 2px;
+font-size: 10px;
+padding: 2px;
+}
+
+#additional-settings{
+font-size: .85em;
+position: absolute;
+bottom: -25px;
+left: 95px;
+}
+
+/* These blocks of code adjust the input appearance for the login form */
+
+.login form input {
+width: 100%;
+height: 100%;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+display: block;
+}
+
+a.login.wpml-btn.login-window {
+font-size: 20px;
+text-decoration: none;
+width: 100%;
+height: 44px;
+margin-left: auto;
+margin-right: auto;
+display: inline-block
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #3d5a5a;
+background: #39ff14;
+background: -webkit-gradient(linear, left top, left bottom, from(#39ff14), to(#416b68));
+background: -webkit-linear-gradient(top, #39ff14, #416b68);
+background: -moz-linear-gradient(top, #39ff14, #416b68);
+background: -ms-linear-gradient(top, #39ff14, #416b68);
+background: -o-linear-gradient(top, #39ff14, #416b68);
+background-image: -ms-linear-gradient(top, #39ff14 0%, #416b68 100%);
+padding: 10.5px 21px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+-moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+text-shadow: #333333 0 1px 0;
+color: #ffffff;
+}
+
+a.login.wpml-btn.login-window:hover{
+border: 1px solid #3d5a5a;
+text-shadow: #333333 0 1px 0;
+background: #416b68;
+background: -webkit-gradient(linear, left top, left bottom, from(#39ff14), to(#061A02));
+background: -webkit-linear-gradient(top, #39ff14, #061A02);
+background: -moz-linear-gradient(top, #39ff14, #061A02);
+background: -ms-linear-gradient(top, #39ff14, #061A02);
+background: -o-linear-gradient(top, #39ff14, #061A02);
+background-image: -ms-linear-gradient(top, #77b2b0 0%, #061A02 100%);
+color: #fff;
+}
+
+#content.span12.article-container {
+margin-left: auto;
+margin-right: auto;
+}
+
+#form .input {
+width: 100%;
+outline: 0;
+height: 100%;
+}
+
+.login form input:focus,
+.login form textarea:focus {
+background-color: rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+-webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+overflow: hidden;
+}
+
+/* These blocks of code customize the login and rememberme labels  */
+
+.login label {
+color: #fff;
+line-height: 26px;
+}
+
+.login form .input,
+.login input[type="text"] { color: #8c8a8a; }
+input#rememberme {
+height: 18px;
+width: 18px;
+display: inline;
+vertical-align: middle;
+margin: 10px 0;
+}
+
+/* These blocks of code customize the input buttons */
+
+.row {
+text-align: center;
+}
+
+input.button-primary {
+width: 138px;
+height: 44px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+float:right;
+border: 1px solid #3d5a5a;
+background: #416b68;
+background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+background: -moz-linear-gradient(top, #6da5a3, #416b68);
+background: -ms-linear-gradient(top, #6da5a3, #416b68);
+background: -o-linear-gradient(top, #6da5a3, #416b68);
+background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+padding: 10.5px 21px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+-moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+
+color: #ffffff;
+}
+
+input.button-primary:hover {
+border: 1px solid #3d5a5a;
+text-shadow: #333333 0 1px 0;
+background: #416b68;
+background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+background: -moz-linear-gradient(top, #77b2b0, #416b68);
+background: -ms-linear-gradient(top, #77b2b0, #416b68);
+background: -o-linear-gradient(top, #77b2b0, #416b68);
+background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+color: #fff;
+}
+
+input.button-primary:active {
+margin-top:1px;
+text-shadow: #333333 0 -1px 0;
+border: 1px solid #3d5a5a;
+background: #FF8533; /* #6da5a3 */
+background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
+background: -webkit-linear-gradient(top, #416b68, #609391);
+background: -moz-linear-gradient(top, #416b68, #6da5a3);
+background: -ms-linear-gradient(top, #416b68, #6da5a3);
+background: -o-linear-gradient(top, #416b68, #6da5a3);
+background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%);
+color: #fff;
+-webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+-moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+}
+
+/* This block of code takes the custom font imported form the functions.php page and applies it to our login page */
+
+.login #nav a,
+.login #backtoblog a {
+font-family: 'Open Sans Condensed', sans-serif;
+color: #00667!important;
+font-size: 17px;
+}
+
+div.updated,
+.login .message {
+background-color: lightYellow;
+border-color: #E6DB55;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 16px;
+font-weight: 700;
+}
+
+.bottom_photo {
+width: 100%;
+height: 50%;
+}
+
+/* This block of code stylizes the decision matrix page after login */
+/* switch to nexted divs */
+ul#decision-matrix {
+list-style: none;
+display: block;
+margin-top: 2%;
+margin-left: auto;
+margin-right: auto;
+width: 100%
+}
+
+#will-play{
+width: 95%
+padding-left: 5%;
+}
+
+#have-played{
+width: 95%
+padding-left: 5%;
+}
+
+#just-browsing{
+width: 95%;
+padding-left: 5%;
+}
+
+ul#decision-matrix li{
+padding: 2%;
+}
+
+ul#decision-matrix a {
+width: 20%;
+font-size: 20px;
+text-decoration: none;
+display: block
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #3d5a5a;
+background: #39ff14;
+background: -webkit-gradient(linear, left top, left bottom, from(#39ff14), to(#416b68));
+background: -webkit-linear-gradient(top, #39ff14, #416b68);
+background: -moz-linear-gradient(top, #39ff14, #416b68);
+background: -ms-linear-gradient(top, #39ff14, #416b68);
+background: -o-linear-gradient(top, #39ff14, #416b68);
+background-image: -ms-linear-gradient(top, #39ff14 0%, #416b68 100%);
+padding: 10.5px 21px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+-moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+text-shadow: #333333 0 1px 0;
+color: #ffffff;
+}
+
+ul#decision-matrix a:hover {
+border: 1px solid #3d5a5a;
+text-shadow: #333333 0 1px 0;
+background: #416b68;
+background: -webkit-gradient(linear, left top, left bottom, from(#39ff14), to(#061A02));
+background: -webkit-linear-gradient(top, #39ff14, #061A02);
+background: -moz-linear-gradient(top, #39ff14, #061A02);
+background: -ms-linear-gradient(top, #39ff14, #061A02);
+background: -o-linear-gradient(top, #39ff14, #061A02);
+background-image: -ms-linear-gradient(top, #77b2b0 0%, #061A02 100%);
+color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Everything above was done to stylize items prior to the decicion to build the golf with friends app */
+/* Everything below was done to stylize items after the decision to build the golf with friends app */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
