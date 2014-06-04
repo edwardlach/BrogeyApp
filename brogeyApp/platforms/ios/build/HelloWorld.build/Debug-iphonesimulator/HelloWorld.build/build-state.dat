@@ -1,0 +1,1182 @@
+THelloWorld
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+cCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+cCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+cCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+cCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+cCopyStringsFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib
+cCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+cCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+cCopyStringsFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+cCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+cCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+cCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+cCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+cCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+cCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+cCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+cCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+cCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+cProcessPCH /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+cGenerateDSYMFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+cTouch /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005372BB4F00000000000003B4
+t1400027983
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005372BB56000000000000019E
+t1400027990
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005372BB580000000000484210
+t1400027992
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c000000005372BB580000000000098030
+t1400027992
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005372BB570000000000059340
+t1400027991
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005372BB5900000000005B82F0
+t1400027993
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005372BB590000000000446820
+t1400027993
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005372BB5900000000000F1A80
+t1400027993
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005372BB59000000000013B8C0
+t1400027993
+s1292480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005372BB5B000000000088D8C0
+t1400027995
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005372BB5B00000000001BE790
+t1400027995
+s1828752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005372BB600000000001F1DE10
+t1400028000
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005372BB6A00000000002BC360
+t1400028010
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c000000005372BB710000000000002338
+t1400028017
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c000000005372BB72000000000008D370
+t1400028018
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c000000005372BB720000000000392E20
+t1400028018
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c00000000530D384200000000000141F0
+t1393375298
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c000000005372BB720000000000014A80
+t1400028018
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c000000005372BB720000000000033BA0
+t1400028018
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c000000005372BB72000000000001CFB0
+t1400028018
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c000000005372BB72000000000001B2B0
+t1400028018
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c000000005372BB7200000000000C9570
+t1400028018
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c000000005372BB720000000000063280
+t1400028018
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c000000005372BB720000000000008880
+t1400028018
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c000000005372BB720000000000015080
+t1400028018
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005372BB7200000000000230F0
+t1400028018
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c000000005372BB72000000000000E380
+t1400028018
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c000000005372BB720000000000089380
+t1400028018
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c000000005372BB720000000000017320
+t1400028018
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c000000005372BB720000000000039CD0
+t1400028018
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c000000005372BB72000000000000B0B0
+t1400028018
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c000000005372BB730000000000167E80
+t1400028019
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c000000005372BB7200000000000106A0
+t1400028018
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c000000005372BB72000000000001CE40
+t1400028018
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005372BB7200000000000740C0
+t1400028018
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c000000005372BB72000000000006CA60
+t1400028018
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c000000005372BB72000000000001BAD0
+t1400028018
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c000000005372BB730000000000084A20
+t1400028019
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c000000005372BB86000000000000514C
+t1400028038
+s20812
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.h
+c000000005372CDE900000000000005B9
+t1400032745
+s1465
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m
+c000000005372CDE900000000000013AB
+t1400032745
+s5035
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.h
+c000000005372CDE900000000000004D0
+t1400032745
+s1232
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m
+c000000005372CDEA000000000000126B
+t1400032746
+s4715
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib
+c000000005372CDE90000000000001759
+t1400032745
+s5977
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist
+c000000005372D8480000000000000A13
+t1400035400
+s2579
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+c000000005372CDEA00000000000003C5
+t1400032746
+s965
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings
+c000000005372CDE900000000000004C0
+t1400032745
+s1216
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings
+c000000005372CDE900000000000004AB
+t1400032745
+s1195
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-40.png
+c000000005372CDE90000000000000FF2
+t1400032745
+s4082
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png
+c000000005372CDE90000000000001CF3
+t1400032745
+s7411
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-50.png
+c000000005372CDE9000000000000130A
+t1400032745
+s4874
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png
+c000000005372CDE9000000000000258B
+t1400032745
+s9611
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-60.png
+c000000005372CDE900000000000016B3
+t1400032745
+s5811
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png
+c000000005372CDE90000000000002E94
+t1400032745
+s11924
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-72.png
+c000000005372CDE90000000000001350
+t1400032745
+s4944
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png
+c000000005372CDE90000000000002DBA
+t1400032745
+s11706
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-76.png
+c000000005372CDE90000000000001B71
+t1400032745
+s7025
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png
+c000000005372CDE90000000000003B9E
+t1400032745
+s15262
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-small.png
+c000000005372CDE90000000000000CDE
+t1400032745
+s3294
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png
+c000000005372CDE900000000000015E8
+t1400032745
+s5608
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon.png
+c000000005372CDE90000000000000F3E
+t1400032745
+s3902
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon@2x.png
+c000000005372CDE90000000000001EBD
+t1400032745
+s7869
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png
+c000000005372CDE900000000000085B1
+t1400032745
+s34225
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005372CDE90000000000033D0A
+t1400032745
+s212234
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png
+c000000005372CDE900000000000166A2
+t1400032745
+s91810
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005372CDE90000000000033F7C
+t1400032745
+s212860
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png
+c000000005372CDE90000000000016641
+t1400032745
+s91713
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png
+c000000005372CDE90000000000007323
+t1400032745
+s29475
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png
+c000000005372CDE9000000000000289A
+t1400032745
+s10394
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m
+c000000005372CDEA000000000000045C
+t1400032746
+s1116
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+t1400032753
+s73964
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+c000000005372CDED00000000000001B9
+t1400032749
+s441
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+t1400032753
+s51548
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+t1400032753
+s2972
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+c000000005372CDED000000000000002D
+t1400032749
+s45
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app
+t1400035401
+s1020
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM
+t1400035400
+s102
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+t1400032749
+s34225
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+t1400032749
+s212234
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+t1400032749
+s91810
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+t1400032749
+s212860
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+t1400032749
+s91713
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png
+t1400032749
+s29475
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png
+t1400032749
+s10394
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+t1400032753
+s272016
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+t1400035401
+s1287
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib
+t1400032752
+s836
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/PkgInfo
+t2
+s0
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+t1400032749
+s280
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+t1400032749
+s166
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-40.png
+t1400032749
+s4082
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png
+t1400032749
+s7411
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-50.png
+t1400032749
+s4874
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png
+t1400032749
+s9611
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-60.png
+t1400032749
+s5811
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png
+t1400032749
+s11924
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-72.png
+t1400032749
+s4944
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png
+t1400032749
+s11706
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-76.png
+t1400032749
+s7025
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png
+t1400032749
+s15262
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-small.png
+t1400032749
+s3294
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png
+t1400032749
+s5608
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon.png
+t1400032749
+s3902
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png
+t1400032749
+s7869
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+c000000005372CDEB0000000000000CFB
+t1400032747
+s3323
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+c000000005372CDEB00000000000008BA
+t1400032747
+s2234
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+c000000005372CDEB00000000000004E2
+t1400032747
+s1250
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+c000000005372CDEB0000000000000503
+t1400032747
+s1283
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+c000000005372CDEB00000000000007E6
+t1400032747
+s2022
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+c000000005372CDEB0000000000000892
+t1400032747
+s2194
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+c000000005372CDEB0000000000000C13
+t1400032747
+s3091
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+c000000005372CDEB0000000000000408
+t1400032747
+s1032
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+c000000005372CDEB0000000000000ACC
+t1400032747
+s2764
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+c000000005372CDEB00000000000004B4
+t1400032747
+s1204
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+c000000005372CDEB00000000000003A0
+t1400032747
+s928
+
+N/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/libCordova.a
+c000000005372CDED00000000000D3780
+t1400032749
+s866176
+
+N/usr/lib/libSystem.B.dylib
+c000000005272C951000000000000E6D0
+t1383254353
+s59088
+
+N/usr/lib/system/libcache.dylib
+c000000005272C95D0000000000012A00
+t1383254365
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005272C946000000000002E320
+t1383254342
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005272C9510000000000021860
+t1383254353
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c000000005272C95D000000000001B620
+t1383254365
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005272C95D00000000000BD920
+t1383254365
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000530D384200000000000141F0
+t1393375298
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c000000005272C95D000000000000A120
+t1383254365
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000530D3842000000000001D550
+t1393375298
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c000000005272C95D0000000000014EE0
+t1383254365
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c000000005272C95F0000000000010380
+t1383254367
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c000000005272C95F000000000000C4C0
+t1383254367
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005272C95D00000000000357A0
+t1383254365
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c000000005272C95D000000000000C070
+t1383254365
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000530D38060000000000168D00
+t1393375238
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000530D383C0000000000010630
+t1393375292
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000530D3842000000000001DF10
+t1393375298
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005272C9510000000000075B00
+t1383254353
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000530D3806000000000007CCE0
+t1393375238
+s511200
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005272C95100000000000766C0
+t1383254353
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000530D38420000000000044DC0
+t1393375298
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005272C9510000000000021FA0
+t1383254353
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000530D3842000000000002D920
+t1393375298
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c000000005272C95E000000000001E570
+t1383254366
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000530D3828000000000000CC70
+t1393375272
+s52336
+
+N/usr/lib/system/libunc.dylib
+c000000005272C959000000000000C3F0
+t1383254361
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005272C95E00000000000199F0
+t1383254366
+s104944
+
+N/var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch
+t1400032753
+s5376628
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa93066c90f23b941^f96766c90f23b941^---0#1#1#--18"Check dependencies36"8850CA24-67E5-412E-B363-0EE1395A4A3E-
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421725553.069852
+e421725553.156679
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m221"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler024b12710523b941^f31d28710523b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m0000000000000000^3796"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o [1mHelloWorld/Classes/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/UninstalledProducts/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -include /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.dia -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/AppDelegate.m -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o36"6764338B-E4FA-4476-8530-524158B90255-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421725553.071459
+e421725553.144579
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m235"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf08812710523b941^320325710523b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m0000000000000000^3838"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o [1mHelloWorld/Classes/MainViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/UninstalledProducts/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -include /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.dia -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.m -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o36"AD38B882-447D-4D73-9C40-816961A0D17B-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCompileC build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421725553.069188
+e421725553.098236
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m199"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerad3312710523b941^312619710523b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m0000000000000000^3738"[1mCompileC[0m build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o [1mHelloWorld/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/UninstalledProducts/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -include /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.dia -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/main.m -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o36"ADBE9AAD-2C2A-4091-92FF-852CA8B4F76A-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCompileXIB /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib
+s421725549.626549
+e421725552.782605
+r1
+xCompileXIB
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib
+o2014-05-13 21:59:12.190 Interface Builder Cocoa Touch Tool[1795:303] CFPreferences: user home directory at file:///Users/edwarddlach/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib68"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m999ea06d0523b941^4b5bc8700523b941^-235"2014-05-13 21:59:12.190 Interface Builder Cocoa Touch Tool[1795:303] CFPreferences: user home directory at file:///Users/edwarddlach/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib0000000000000000^839"[1mCompileXIB[0m [1mHelloWorld/Classes/MainViewController.xib[0m    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/MainViewController.nib /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Classes/MainViewController.xib36"618264A8-16FA-435B-9320-6486153963B0-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCopyStringsFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings
+s421725549.628262
+e421725549.630333
+r1
+xCopyStringsFile
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/de.lproj/Localizable.strings
+xHelloWorld/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/de.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings3126a16d0523b941^fd6ba16d0523b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/de.lproj/Localizable.strings0000000000000000^634"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/de.lproj/Localizable.strings HelloWorld/Resources/de.lproj/Localizable.strings    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/de.lproj -- HelloWorld/Resources/de.lproj/Localizable.strings36"037AFD2A-30F6-48AE-A358-B240150BC86D-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCopyStringsFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings
+s421725549.625693
+e421725549.628075
+r1
+xCopyStringsFile
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/en.lproj/Localizable.strings
+xHelloWorld/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HelloWorld/Resources/en.lproj/Localizable.strings132"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.stringsac58a06d0523b941^feefa06d0523b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/en.lproj/Localizable.strings0000000000000000^634"[1mCopyStringsFile[0m build/emulator/HelloWorld.app/en.lproj/Localizable.strings HelloWorld/Resources/en.lproj/Localizable.strings    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/en.lproj -- HelloWorld/Resources/en.lproj/Localizable.strings36"D4F94969-2C76-4067-991D-67A8492A82C1-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png
+s421725549.634663
+e421725549.636503
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40.png
+xbuild/emulator/HelloWorld.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-40.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png9c8ca26d0523b941^a9f5a26d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-40.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon-40.png build/emulator/HelloWorld.app/icon-40.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-40.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"FB919BE3-9703-410F-88B1-B90DA22AD838-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png
+s421725549.622301
+e421725549.625250
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-40@2x.png
+xbuild/emulator/HelloWorld.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-40@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png16879f6d0523b941^f031a06d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-40@2x.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-40@2x.png build/emulator/HelloWorld.app/icon-40@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-40@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"08C2D085-8BF2-4DE5-8435-48CF199064F7-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png
+s421725549.626978
+e421725549.628456
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50.png
+xbuild/emulator/HelloWorld.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-50.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png64b2a06d0523b941^ef02a16d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-50.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon-50.png build/emulator/HelloWorld.app/icon-50.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-50.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"63AF5C8F-7B9D-4161-B9A1-D2BF1A4C8183-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png
+s421725549.638205
+e421725549.639467
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-50@2x.png
+xbuild/emulator/HelloWorld.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-50@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png1687a36d0523b941^2cb8a36d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-50@2x.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-50@2x.png build/emulator/HelloWorld.app/icon-50@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-50@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"1F4417A3-55D7-486E-B5A6-835A137BBC4F-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png
+s421725549.636243
+e421725549.637741
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60.png
+xbuild/emulator/HelloWorld.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-60.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png0707a36d0523b941^d444a36d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-60.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon-60.png build/emulator/HelloWorld.app/icon-60.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-60.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"B48AAFDE-DE4C-4951-854F-5D1DE74FEB6B-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png
+s421725549.627387
+e421725549.629373
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-60@2x.png
+xbuild/emulator/HelloWorld.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-60@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png7ac8a06d0523b941^910ca16d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-60@2x.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-60@2x.png build/emulator/HelloWorld.app/icon-60@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-60@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"8649B7CB-61CA-4070-AC1F-9D7E43B071E5-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png
+s421725549.623115
+e421725549.625509
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72.png
+xbuild/emulator/HelloWorld.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-72.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png68979f6d0523b941^2251a06d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-72.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon-72.png build/emulator/HelloWorld.app/icon-72.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-72.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"604D8346-B7CA-4271-A0C1-F722988A99C6-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png
+s421725549.639063
+e421725549.640226
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-72@2x.png
+xbuild/emulator/HelloWorld.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-72@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.pngabb2a36d0523b941^60e6a36d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-72@2x.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-72@2x.png build/emulator/HelloWorld.app/icon-72@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-72@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"FA3F7B6F-8BD4-48C1-AEDE-7DED1C999C9B-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png
+s421725549.621702
+e421725549.624285
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76.png
+xbuild/emulator/HelloWorld.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon-76.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.pnge23d9f6d0523b941^e0d89f6d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-76.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon-76.png build/emulator/HelloWorld.app/icon-76.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-76.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"7130E5BB-AC0A-45BF-9825-99F0AD995A56-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png
+s421725549.638780
+e421725549.639914
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-76@2x.png
+xbuild/emulator/HelloWorld.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-76@2x.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.pngcf9ea36d0523b941^94dea36d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-76@2x.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-76@2x.png build/emulator/HelloWorld.app/icon-76@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-76@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"801534A3-8C0A-470C-8B42-A5781213996D-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png
+s421725549.629740
+e421725549.631334
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small.png
+xbuild/emulator/HelloWorld.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/emulator/HelloWorld.app/icon-small.png105"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png3c4aa16d0523b941^86a9a16d0523b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-small.png0034d034dfffdf42^660"[1mCpResource[0m HelloWorld/Resources/icons/icon-small.png build/emulator/HelloWorld.app/icon-small.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-small.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"CE8AEB81-1490-4833-AE0E-9006EEBE3649-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png
+s421725549.633352
+e421725549.635142
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon-small@2x.png
+xbuild/emulator/HelloWorld.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/HelloWorld.app/icon-small@2x.png111"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.pngba4ba26d0523b941^98c3a26d0523b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon-small@2x.png0034d034dfffdf42^669"[1mCpResource[0m HelloWorld/Resources/icons/icon-small@2x.png build/emulator/HelloWorld.app/icon-small@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon-small@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"D92604F8-277A-4B8C-85E6-7746FFC69905-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png
+s421725549.623319
+e421725549.625246
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon.png
+xbuild/emulator/HelloWorld.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/emulator/HelloWorld.app/icon.png93"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png62bb9f6d0523b941^713ba06d0523b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon.png0034d034dfffdf42^642"[1mCpResource[0m HelloWorld/Resources/icons/icon.png build/emulator/HelloWorld.app/icon.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"10C08FB8-CEAD-438A-8485-E889D73A13A0-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png
+s421725549.624637
+e421725549.625956
+r1
+xCpResource
+xHelloWorld/Resources/icons/icon@2x.png
+xbuild/emulator/HelloWorld.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/emulator/HelloWorld.app/icon@2x.png99"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.pngadfb9f6d0523b941^6687a06d0523b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/icon@2x.png0034d034dfffdf42^651"[1mCpResource[0m HelloWorld/Resources/icons/icon@2x.png build/emulator/HelloWorld.app/icon@2x.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/icons/icon@2x.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"E19EEE8D-E168-4ADF-BC58-7649F41A3F58-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+s421725549.637639
+e421725549.638818
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-568h@2x~iphone.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.pngc553a36d0523b941^118ca36d0523b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-568h@2x~iphone.png0034d034dfffdf42^698"[1mCpResource[0m HelloWorld/Resources/splash/Default-568h@2x~iphone.png build/emulator/HelloWorld.app/Default-568h@2x~iphone.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-568h@2x~iphone.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"FB1363D3-A9BF-4EEC-A2E2-8393A3130310-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+s421725549.631105
+e421725549.633333
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png136"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png17b7a16d0523b941^1153a26d0523b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png0034d034dfffdf42^707"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/HelloWorld.app/Default-Landscape@2x~ipad.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Landscape@2x~ipad.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"F5E2417E-D21E-42B3-BAB9-F3A52485BAC6-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png
+s421725549.631153
+e421725549.632474
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/emulator/HelloWorld.app/Default-Landscape~ipad.png130"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.pngc6a6a16d0523b941^17f1a16d0523b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Landscape~ipad.png0034d034dfffdf42^698"[1mCpResource[0m HelloWorld/Resources/splash/Default-Landscape~ipad.png build/emulator/HelloWorld.app/Default-Landscape~ipad.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Landscape~ipad.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"681E5F94-1850-4CB5-B478-95E690C2359C-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+s421725549.631463
+e421725549.633092
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png134"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png96d0a16d0523b941^103ca26d0523b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png0034d034dfffdf42^704"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/HelloWorld.app/Default-Portrait@2x~ipad.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Portrait@2x~ipad.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"842F4127-1426-456C-AAC5-583D803A48F8-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png
+s421725549.633381
+e421725549.635704
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/HelloWorld.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/HelloWorld.app/Default-Portrait~ipad.png128"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.pngf948a26d0523b941^c1c9a26d0523b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default-Portrait~ipad.png0034d034dfffdf42^695"[1mCpResource[0m HelloWorld/Resources/splash/Default-Portrait~ipad.png build/emulator/HelloWorld.app/Default-Portrait~ipad.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default-Portrait~ipad.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"FF399590-F0BB-4957-90FC-499A1478B8DA-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png
+s421725549.635659
+e421725549.637185
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/HelloWorld.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/emulator/HelloWorld.app/Default@2x~iphone.png120"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png97e2a26d0523b941^ea20a36d0523b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default@2x~iphone.png0034d034dfffdf42^683"[1mCpResource[0m HelloWorld/Resources/splash/Default@2x~iphone.png build/emulator/HelloWorld.app/Default@2x~iphone.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default@2x~iphone.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"A750CA2C-01EF-4B1A-922F-EB16F2F15131-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CCpResource HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png
+s421725549.636969
+e421725549.638455
+r1
+xCpResource
+xHelloWorld/Resources/splash/Default~iphone.png
+xbuild/emulator/HelloWorld.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/emulator/HelloWorld.app/Default~iphone.png114"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png973ba36d0523b941^3f72a36d0523b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Default~iphone.png0034d034dfffdf42^674"[1mCpResource[0m HelloWorld/Resources/splash/Default~iphone.png build/emulator/HelloWorld.app/Default~iphone.png    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/Resources/splash/Default~iphone.png /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"27EBA158-80DD-4FE8-98C9-E22D52089820-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CGenerateDSYMFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+s421728201.626706
+e421728201.659122
+r1
+xGenerateDSYMFile
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Generate /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM108"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld8480a0c90f23b941^88bda8c90f23b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM/0000000000000000^658"[1mGenerateDSYMFile[0m [1mbuild/emulator/HelloWorld.app.dSYM[0m build/emulator/HelloWorld.app/HelloWorld    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app.dSYM36"41FE7AF8-E252-4B85-8EA2-3897E667112E-
+b6E9F1286-8CA0-4325-A703-7EC4EC5098D6
+
+CLd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld normal i386
+s421725553.157944
+e421725553.332222
+r1
+xLd
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld
+xnormal
+xi386
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/main.o
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/AppDelegate.o
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld63"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i3869c8628710523b941^a20c55710523b941^---0#0#1#--1736"[1mLd[0m build/emulator/HelloWorld.app/HelloWorld normal i386    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -F/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -filelist /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Objects-normal/i386/HelloWorld_dependency_info.dat -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/HelloWorld36"6BC06816-6648-4D92-BE16-FDA8AD7610B8-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CPhaseScriptExecution Copy\ www\ directory /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+s421728201.404632
+e421728201.622127
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.198s
+ouser	0m0.077s
+osys	0m0.118s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'146"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.shb1fa67c90f23b941^5f449fc90f23b941^-42"real	0m0.198suser	0m0.077ssys	0m0.118s3(21%IDEActivityLogMessage2@14"real	0m0.198s-421728201#1#14#-0#-----2@14"user	0m0.077s-421728201#15#14#-0#-----2@13"sys	0m0.118s-421728201#29#13#-0#-----0#0#1#--368"[1mPhaseScriptExecution[0m Copy\ www\ directory build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    /bin/sh -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/Script-304B58A110DAC018002A0835.sh36"DABC80AB-3893-40FE-A1B1-165DA1343E11-
+b6E9F1286-8CA0-4325-A703-7EC4EC5098D6
+
+CProcessInfoPlistFile /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Info.plist /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist
+s421728201.401087
+e421728201.403095
+r1
+xProcessInfoPlistFile
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Info.plist
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Process /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist110"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m2bc166c90f23b941^013367c90f23b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist0000000000000000^750"[1mProcessInfoPlistFile[0m build/emulator/HelloWorld.app/Info.plist [1mHelloWorld/HelloWorld-Info.plist[0m    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Info.plist -genpkginfo /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app/Info.plist36"8A9FFBB9-976B-478E-A6D2-6D0C3321891B-
+b6E9F1286-8CA0-4325-A703-7EC4EC5098D6
+
+CProcessPCH /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s421725552.783673
+e421725553.067992
+r1
+xProcessPCH
+x/var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch
+xHelloWorld/HelloWorld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile HelloWorld/HelloWorld-Prefix.pch310"[1mProcessPCH[0m /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera9bdc8700523b941^6e6911710523b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Prefix.pch0000000000000000^3824"[1mProcessPCH[0m /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch HelloWorld/HelloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/HelloWorld-project-headers.hmap -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/usr/local/lib/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/UninstalledProducts/include -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources/i386 -I/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/HelloWorld.build/Debug-iphonesimulator/HelloWorld.build/DerivedSources -F/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator --serialize-diagnostics /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.d -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/HelloWorld/HelloWorld-Prefix.pch -o /var/folders/wl/4cy_tg8108g2rx0dbsz0_l000000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/HelloWorld-Prefix-aifuljyodaqgfigizddiaekyvnbh/HelloWorld-Prefix.pch.pch36"B66F37B9-5F09-45DD-8289-601DAF1C5F42-
+bCF7C2935-CADE-41B5-B9AF-1195AF35FBFC
+
+CTouch /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app
+s421728201.659871
+e421728201.664312
+r1
+xTouch
+x/Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Touch /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app43"[1mTouch[0m build/emulator/HelloWorld.app16faa8c90f23b941^bf10aac90f23b941^---0#0#1#--415"[1mTouch[0m build/emulator/HelloWorld.app    cd /Users/edwarddlach/Desktop/brogeyApp/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/edwarddlach/Desktop/brogeyApp/platforms/ios/build/emulator/HelloWorld.app36"6E034367-33F2-47F3-8E38-B31EAD32EEE0-
+b6E9F1286-8CA0-4325-A703-7EC4EC5098D6
+
